@@ -6,8 +6,12 @@
  * Version: 1.0.0
  * Author: lugr4
  * Author URI: ***
- * License: GPLv2
+ * License: GPLv2 or later
  * Text Domain: sdk-plugnmeet-wp
+ * Requires at least: 5.0
+ * Requires PHP: 7.4
+ * Domain Path: /languages
+ * Uninstall: uninstall.php
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
