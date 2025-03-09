@@ -30,6 +30,17 @@ Alternativamente:
 2. Súbelo en el panel de WordPress en **Plugins > Añadir Nuevo > Subir Plugin**
 3. Activa el plugin
 
+## Desinstalación
+Al desinstalar el plugin:
+1. Se eliminarán todas las configuraciones guardadas (URL del servidor, API Key, API Secret)
+2. No se eliminará ningún contenido creado en PlugNMeet
+3. Los datos de las salas permanecerán en tu servidor PlugNMeet
+
+Para desinstalar:
+1. Ve a **Plugins > Plugins Instalados**
+2. Desactiva el plugin
+3. Haz clic en "Borrar"
+
 ## Configuración
 1. Una vez activado, ve a la sección de configuración del plugin
 2. Ingresa las credenciales de API de tu servidor PlugNMeet:

@@ -4,9 +4,9 @@
  * Plugin URI: ***
  * Description: Plugin para manejar peticiones a la API de PlugNMeet desde WordPress.
  * Version: 1.0.0
- * Author: luisdev
+ * Author: lugr4
  * Author URI: ***
- * License: GPLv2 or later
+ * License: GPLv2
  * Text Domain: sdk-plugnmeet-wp
  */
 
@@ -36,7 +36,6 @@ function spw_display_admin_notices() {
 
 // Cargar estilos de administración
 function spw_enqueue_admin_styles($hook) {
-    // Solo cargar en las páginas de nuestro plugin
     if (strpos($hook, SPW_SLUG) !== false) {
         wp_enqueue_style(
             'spw-admin-styles',
