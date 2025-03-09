@@ -1,0 +1,5 @@
+NOTE: CHECK THE PARAMS TO SEND ON assets/js/sdk/Objects
+
+API: GetActiveRoomInfo
+action: process_active_room_info_handler
+params: 

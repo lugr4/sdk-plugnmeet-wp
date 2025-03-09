@@ -1,0 +1,100 @@
+/* Estilos generales de la página de administración */
+.spw-header {
+    border-bottom: 1px solid #ccd0d4;
+    margin-bottom: 20px;
+}
+
+.spw-header ul {
+    display: flex;
+}
+
+.spw-header nav a {
+    color: #2271b1;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.spw-header nav a:hover {
+    background-color: #f0f0f1;
+    color: #135e96;
+}
+
+/* Estilos para las tarjetas de contenido */
+.spw-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.spw-card h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    color: #1d2327;
+    font-size: 1.3em;
+}
+
+/* Estilos para el formulario */
+.spw-form-table {
+    background: #fff;
+    margin-top: 20px;
+}
+
+.spw-form-table input[type="text"],
+.spw-form-table input[type="url"],
+.spw-form-table input[type="password"] {
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    padding: 6px 8px;
+}
+
+.spw-form-table input[type="text"]:focus,
+.spw-form-table input[type="url"]:focus,
+.spw-form-table input[type="password"]:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+/* Estilos para los botones */
+.spw-button {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.spw-button:hover {
+    background: #135e96;
+    border-color: #135e96;
+}
+
+/* Estilos para mensajes de información */
+.spw-info {
+    background: #f0f6fc;
+    border-left: 4px solid #72aee6;
+    padding: 12px;
+    margin: 20px 0;
+}
+
+/* Estilos responsive */
+@media screen and (max-width: 782px) {
+    .spw-form-table input[type="text"],
+    .spw-form-table input[type="url"],
+    .spw-form-table input[type="password"] {
+        width: 100%;
+    }
+    
+    .spw-header nav {
+        margin-top: 10px;
+    }
+    
+} 

@@ -1,0 +1,41 @@
+# Archivos de sistema (macOS y Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos generados por el sistema
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Configuración de entorno local
+.env
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos relacionados con Composer (si decides usarlo)
+composer.lock
+vendor/
+
+# Archivos de node.js (si usas npm o yarn para gestionar dependencias frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos temporales y de cache
+*.zip
+*.tar.gz
+.cache/
+dist/
+
+# Archivos específicos de WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+
+# Subir solo el código del plugin, no carpetas temporales
+*.bak
+*.original
+*.sql
